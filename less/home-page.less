@@ -2,34 +2,41 @@
     padding: 3%;
 
     header {
-        height: 100px;
         background-color: @maincolor;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        color: @textcolor;
+        color: @textonblue;
         border-top-left-radius: 5px;
         border-top-right-radius: 5px;
         white-space: nowrap;
 
-        h1 {
-            font-size: 3em;
-            padding: 1%;
+        img {
+            width:150px;
+            height: auto;
+            margin: 0.5%;
+            padding-right: 1.5em;
         }
 
-        .signin {
-            .button();
-            margin: 1%;
+        h1 {
+            font-size: 3em;
+            padding-top: 1em;
+        }
 
-            a {
-                text-decoration: none;
-                color: @textcolor;
-            }
+        .leftside {
+            width: 30%;
+            justify-content: flex-start;
+            align-items: baseline;
+        }
+
+        .rightside {
+            justify-content: flex-end;
+            white-space: nowrap;
         }
     }
 
     .headerpic {
-        
+        margin-bottom: 2em;
         img {
             width:100%;
             height: auto;

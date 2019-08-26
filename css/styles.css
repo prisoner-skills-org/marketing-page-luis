@@ -130,21 +130,52 @@ nav {
   width: 40%;
   padding: 2.5%;
   display: flex;
+  align-items: baseline;
+  justify-content: flex-end;
+}
+nav .signin {
+  width: 100%;
+  border-radius: 10px;
+  font-size: 1em;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #007bff;
+  border-style: solid;
+  border-color: #FFFFFF;
+  padding: 10%;
+  border-width: 2px;
+  white-space: nowrap;
+  margin: 1%;
+}
+nav .signin a {
+  text-decoration: none;
+  color: #FFFFFF;
 }
 nav a {
-  width: 300px;
   font-size: 1.5em;
-  margin-right: 10%;
+  margin-right: 40%;
   text-decoration: none;
   color: #FFFFFF;
   white-space: nowrap;
+}
+footer {
+  background-color: #007bff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  white-space: nowrap;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-top: 1em;
 }
 .home {
   padding: 3%;
 }
 .home header {
-  height: 100px;
-  background-color: #1271bc;
+  background-color: #007bff;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -153,27 +184,27 @@ nav a {
   border-top-right-radius: 5px;
   white-space: nowrap;
 }
+.home header img {
+  width: 150px;
+  height: auto;
+  margin: 0.5%;
+  padding-right: 1.5em;
+}
 .home header h1 {
   font-size: 3em;
-  padding: 1%;
+  padding-top: 1em;
 }
-.home header .signin {
-  width: 8%;
-  border-radius: 10px;
-  font-size: 1.5em;
-  text-align: center;
-  color: #FFFFFF;
-  background-color: #1271bc;
-  border-style: solid;
-  border-color: #FFFFFF;
-  padding: 1%;
-  border-width: 2px;
+.home header .leftside {
+  width: 30%;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+.home header .rightside {
+  justify-content: flex-end;
   white-space: nowrap;
-  margin: 1%;
 }
-.home header .signin a {
-  text-decoration: none;
-  color: #FFFFFF;
+.home .headerpic {
+  margin-bottom: 2em;
 }
 .home .headerpic img {
   width: 100%;
