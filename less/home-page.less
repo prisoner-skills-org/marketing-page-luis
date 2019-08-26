@@ -1,0 +1,40 @@
+.home {
+    padding: 3%;
+
+    header {
+        height: 100px;
+        background-color: @maincolor;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: @textcolor;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        white-space: nowrap;
+
+        h1 {
+            font-size: 3em;
+            padding: 1%;
+        }
+
+        .signin {
+            .button();
+            margin: 1%;
+
+            a {
+                text-decoration: none;
+                color: @textcolor;
+            }
+        }
+    }
+
+    .headerpic {
+        
+        img {
+            width:100%;
+            height: auto;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+    }
+}
