@@ -2,6 +2,7 @@
   text-align: left;
   list-style-type: square;
   list-style-position: inside;
+  font-size: 1.2em;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -225,15 +226,29 @@ footer {
   color: black;
   text-align: center;
 }
-.home .informationUp {
+.home .information {
+  display: flex;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-bottom: 2%;
+  border: 5px solid #007bff;
+  border-radius: 10px;
+}
+.home .information p {
+  width: 33.33%;
+  font-size: 1.2em;
+  padding: 2%;
+  text-align: justify;
+}
+.home .advantagesUp {
   display: flex;
   padding: 0.5%;
 }
-.home .informationUp h1 {
+.home .advantagesUp h1 {
   font-size: 2em;
   padding-bottom: 6%;
 }
-.home .informationUp .prisons {
+.home .advantagesUp .prisons {
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -244,27 +259,28 @@ footer {
   border-radius: 10px;
   color: #FFFFFF;
 }
-.home .informationUp .prisons .text1 {
+.home .advantagesUp .prisons .text1 {
   text-align: center;
 }
-.home .informationUp .prisons .text1 ul {
+.home .advantagesUp .prisons .text1 ul {
   text-align: left;
   list-style-type: square;
   list-style-position: inside;
+  font-size: 1.2em;
 }
-.home .informationUp .prisons .text1 ul li {
+.home .advantagesUp .prisons .text1 ul li {
   padding-top: 3%;
 }
-.home .informationUp .prisons .img1 {
+.home .advantagesUp .prisons .img1 {
   display: flex;
   justify-content: center;
   padding: 5%;
 }
-.home .informationUp .prisons img {
+.home .advantagesUp .prisons img {
   width: 50%;
   border-radius: 5px;
 }
-.home .informationUp .inmates {
+.home .advantagesUp .inmates {
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -275,35 +291,36 @@ footer {
   border-radius: 10px;
   color: #FFFFFF;
 }
-.home .informationUp .inmates .text2 {
+.home .advantagesUp .inmates .text2 {
   text-align: center;
 }
-.home .informationUp .inmates .text2 ul {
+.home .advantagesUp .inmates .text2 ul {
   text-align: left;
   list-style-type: square;
   list-style-position: inside;
+  font-size: 1.2em;
 }
-.home .informationUp .inmates .text2 ul li {
+.home .advantagesUp .inmates .text2 ul li {
   padding-top: 3%;
 }
-.home .informationUp .inmates .img2 {
+.home .advantagesUp .inmates .img2 {
   display: flex;
   justify-content: center;
   padding: 5%;
 }
-.home .informationUp .inmates img {
+.home .advantagesUp .inmates img {
   width: 50%;
   border-radius: 5px;
 }
-.home .informationLow {
+.home .advantagesLow {
   display: flex;
   padding: 0.5%;
 }
-.home .informationLow h1 {
+.home .advantagesLow h1 {
   font-size: 2em;
   padding-bottom: 6%;
 }
-.home .informationLow .employers {
+.home .advantagesLow .employers {
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -314,27 +331,28 @@ footer {
   border-radius: 10px;
   color: #FFFFFF;
 }
-.home .informationLow .employers .text3 {
+.home .advantagesLow .employers .text3 {
   text-align: center;
 }
-.home .informationLow .employers .text3 ul {
+.home .advantagesLow .employers .text3 ul {
   text-align: left;
   list-style-type: square;
   list-style-position: inside;
+  font-size: 1.2em;
 }
-.home .informationLow .employers .text3 ul li {
+.home .advantagesLow .employers .text3 ul li {
   padding-top: 3%;
 }
-.home .informationLow .employers .img3 {
+.home .advantagesLow .employers .img3 {
   display: flex;
   justify-content: center;
   padding: 5%;
 }
-.home .informationLow .employers img {
+.home .advantagesLow .employers img {
   width: 50%;
   border-radius: 5px;
 }
-.home .informationLow .government {
+.home .advantagesLow .government {
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -345,23 +363,24 @@ footer {
   border-radius: 10px;
   color: #FFFFFF;
 }
-.home .informationLow .government .text4 {
+.home .advantagesLow .government .text4 {
   text-align: center;
 }
-.home .informationLow .government .text4 ul {
+.home .advantagesLow .government .text4 ul {
   text-align: left;
   list-style-type: square;
   list-style-position: inside;
+  font-size: 1.2em;
 }
-.home .informationLow .government .text4 ul li {
+.home .advantagesLow .government .text4 ul li {
   padding-top: 3%;
 }
-.home .informationLow .government .img4 {
+.home .advantagesLow .government .img4 {
   display: flex;
   justify-content: center;
   padding: 5%;
 }
-.home .informationLow .government img {
+.home .advantagesLow .government img {
   width: 50%;
   border-radius: 5px;
 }
