@@ -1,3 +1,8 @@
+.unorderedlist {
+  text-align: left;
+  list-style-type: square;
+  list-style-position: inside;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -211,4 +216,152 @@ footer {
   height: auto;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
+}
+.home .mission {
+  padding: 3%;
+}
+.home .mission p {
+  font-size: 2.5em;
+  color: black;
+  text-align: center;
+}
+.home .informationUp {
+  display: flex;
+  padding: 0.5%;
+}
+.home .informationUp h1 {
+  font-size: 2em;
+  padding-bottom: 6%;
+}
+.home .informationUp .prisons {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  margin: 2%;
+  align-items: center;
+  background-color: #868e96;
+  border-radius: 10px;
+  color: #FFFFFF;
+}
+.home .informationUp .prisons .text1 {
+  text-align: center;
+}
+.home .informationUp .prisons .text1 ul {
+  text-align: left;
+  list-style-type: square;
+  list-style-position: inside;
+}
+.home .informationUp .prisons .text1 ul li {
+  padding-top: 3%;
+}
+.home .informationUp .prisons .img1 {
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+}
+.home .informationUp .prisons img {
+  width: 50%;
+  border-radius: 5px;
+}
+.home .informationUp .inmates {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  margin: 2%;
+  align-items: center;
+  background-color: #868e96;
+  border-radius: 10px;
+  color: #FFFFFF;
+}
+.home .informationUp .inmates .text2 {
+  text-align: center;
+}
+.home .informationUp .inmates .text2 ul {
+  text-align: left;
+  list-style-type: square;
+  list-style-position: inside;
+}
+.home .informationUp .inmates .text2 ul li {
+  padding-top: 3%;
+}
+.home .informationUp .inmates .img2 {
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+}
+.home .informationUp .inmates img {
+  width: 50%;
+  border-radius: 5px;
+}
+.home .informationLow {
+  display: flex;
+  padding: 0.5%;
+}
+.home .informationLow h1 {
+  font-size: 2em;
+  padding-bottom: 6%;
+}
+.home .informationLow .employers {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  margin: 2%;
+  align-items: center;
+  background-color: #868e96;
+  border-radius: 10px;
+  color: #FFFFFF;
+}
+.home .informationLow .employers .text3 {
+  text-align: center;
+}
+.home .informationLow .employers .text3 ul {
+  text-align: left;
+  list-style-type: square;
+  list-style-position: inside;
+}
+.home .informationLow .employers .text3 ul li {
+  padding-top: 3%;
+}
+.home .informationLow .employers .img3 {
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+}
+.home .informationLow .employers img {
+  width: 50%;
+  border-radius: 5px;
+}
+.home .informationLow .government {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  margin: 2%;
+  align-items: center;
+  background-color: #868e96;
+  border-radius: 10px;
+  color: #FFFFFF;
+}
+.home .informationLow .government .text4 {
+  text-align: center;
+}
+.home .informationLow .government .text4 ul {
+  text-align: left;
+  list-style-type: square;
+  list-style-position: inside;
+}
+.home .informationLow .government .text4 ul li {
+  padding-top: 3%;
+}
+.home .informationLow .government .img4 {
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+}
+.home .informationLow .government img {
+  width: 50%;
+  border-radius: 5px;
 }
