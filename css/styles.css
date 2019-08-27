@@ -383,3 +383,45 @@ footer {
   width: 80%;
   border-radius: 5px;
 }
+.home .meetUs {
+  display: flex;
+  margin: 3%;
+  justify-content: center;
+}
+.home .meetUs h1 {
+  color: #007bff;
+  font-size: 5em;
+  border-top: 4px solid #007bff;
+  border-bottom: 4px solid #007bff;
+}
+.home .team {
+  display: flex;
+  flex-wrap: wrap;
+}
+.home .team .member {
+  width: 33.3%;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5%;
+}
+.home .team .member h3 {
+  text-align: center;
+  color: #007bff;
+  font-size: 2em;
+}
+.home .team .member p {
+  text-align: center;
+  color: #007bff;
+  font-size: 1.5em;
+}
+.home .team .member .profilePic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home .team .member .profilePic img {
+  width: 80%;
+  height: auto;
+  padding: 5%;
+  border-radius: 50%;
+}
