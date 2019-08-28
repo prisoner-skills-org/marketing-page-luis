@@ -1,0 +1,377 @@
+.home {
+    padding: 3%;
+
+    @media @phone {
+        width: 98%;
+        padding: 1%;
+        display: flex;
+        flex-direction: column;
+      }
+
+    header {
+        width: 100%;
+        background-color: @maincolor;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        color: @textonblue;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        white-space: nowrap;
+
+        @media @phone {
+            width: 98%;
+            padding: 1%;
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+          }
+
+        img {
+            width: 10vw;
+            height: auto;
+            margin: 0.5%;
+            padding-right: 1.5em;
+
+            @media @phone {
+                display: none;
+            }
+        }
+
+        h1 {
+            font-size: 3vw;
+            padding-top: 3.5vw;
+
+            @media @phone {
+                font-size: 10vw;
+                text-align: center;
+                padding-top: 0.5em;
+                padding-bottom: 0.5em;
+            }
+        }
+
+        .leftside {
+            width: 30%;
+            justify-content: flex-start;
+            align-items: baseline;
+
+            @media @phone {
+                width: 100%;
+                justify-content: center;
+            }
+        }
+
+        .rightside {
+            justify-content: flex-end;
+            white-space: nowrap;
+
+            @media @phone {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                font-size: 3vw;
+            }
+        }
+    }
+
+    .headerpic {
+
+        @media @phone {
+            margin-bottom: 1em;
+        }
+        img {
+            width:100%;
+            height: auto;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+    }
+
+    .mission {
+        padding: 3%;
+
+        @media @phone {
+            padding-top: 1%;
+            padding-bottom: 4%;
+        }
+        p {
+            font-size: 2.7vw;
+            color: black;
+            text-align: center;
+
+            @media @phone {
+                font-size: 4vw;
+            }
+        }
+    }
+
+    .information {
+        display: flex;
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-bottom: 2%;
+        border: 0.3vw solid @maincolor;
+        border-radius: 10px;
+
+        @media @phone {
+            flex-direction: column;
+            align-items: center;
+        }
+        p {
+            width: 33.33%;
+            font-size: 1.6vw;
+            padding: 2%;
+            text-align: justify;
+
+            @media @phone {
+                width: 90%;
+                font-size: 2.8vw;
+            }
+        }
+    }
+
+    .advantages {
+        display: flex;
+        padding: 0.5%;
+        width:99%;
+
+        @media @phone {
+            flex-direction: column;
+        }
+
+        h1 {
+            font-size: 2vw;
+            padding-bottom: 6%;
+
+            @media @phone {
+                font-size: 4vw;
+                padding-top: 2vw;
+                padding-bottom: 2vw;
+            }
+        }
+
+        .prisons {
+            .textboxes();
+
+            @media @phone{
+                width: 90%;
+            }
+
+            .text1 {
+                text-align: center;
+
+                @media @phone{
+                    font-size: 2.5vw;
+                }
+
+                ul{
+                    .unorderedlist();
+
+                    li {
+                        padding-top: 3%;
+                        margin-left: 1vw;
+                    }
+                }
+            }
+
+            .img1 {
+                display: flex;
+                justify-content: center;
+                padding: 5%;
+                align-items: flex-end;
+            }
+
+            img {
+                width: 80%;
+                border-radius: 5px;
+            }
+        }
+
+        .inmates {
+            .textboxes();
+
+            @media @phone{
+                width: 90%;
+            }
+
+            .text2 {
+                text-align: center;
+
+                @media @phone{
+                    font-size: 2.5vw;
+                }
+
+                ul{
+                    .unorderedlist();
+
+                    li {
+                        padding-top: 3%;
+                        margin-left: 1vw;
+                    }
+                }
+            }
+
+            .img2 {
+                display: flex;
+                justify-content: center;
+                padding: 5%;
+            }
+
+            img {
+                width: 80%;
+                border-radius: 5px;
+            }
+        }
+
+        .employers {
+            .textboxes();
+
+            @media @phone{
+                width: 90%;
+            }
+
+            .text3 {
+                text-align: center;
+
+                @media @phone{
+                    font-size: 2.5vw;
+                }
+
+                ul{
+                    .unorderedlist();
+
+                    li {
+                        padding-top: 3%;
+                        margin-left: 1vw;
+                    }
+                }
+            }
+
+            .img3 {
+                display: flex;
+                justify-content: center;
+                padding: 5%;
+            }
+
+            img {
+                width: 80%;
+                border-radius: 5px;
+            }
+        }
+
+        .government {
+            .textboxes();
+
+            @media @phone{
+                width: 90%;
+            }
+
+            .text4 {
+                text-align: center;
+
+                @media @phone{
+                    font-size: 2.5vw;
+                }
+
+                ul{
+                    .unorderedlist();
+
+                    li {
+                        padding-top: 3%;
+                        margin-left: 1vw;
+                    }
+                }
+            }
+
+            .img4 {
+                display: flex;
+                justify-content: center;
+                padding: 5%;
+                align-items: flex-end;
+            }
+
+            img {
+                width: 80%;
+                border-radius: 5px;
+            }
+        }
+    }
+
+    .meetUs {
+        display: flex;
+        margin: 3%;
+        justify-content: center;
+        padding-top: 2%;
+
+        h1 {
+            color: @maincolor;
+            font-size: 6vw;
+            border-top: 0.2vw solid @maincolor;
+            border-bottom: 0.2vw solid @maincolor;
+
+            @media @phone {
+                font-size: 10vw;
+                border-top: 0.5vw solid @maincolor;
+                border-bottom: 0.5vw solid @maincolor;
+            }
+        }
+    }
+    
+    .team {
+        display: flex;
+        flex-wrap: wrap;
+
+        @media @phone {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .member {
+            width: 33.3%;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 5%;
+
+            @media @phone {
+                width: 80%;
+            }
+
+            h3 {
+                text-align: center;
+                color: @maincolor;
+                font-size: 2.3vw;
+
+                @media @phone {
+                    font-size: 5vw;
+                }
+            }
+
+            p {
+                text-align: center;
+                color: @maincolor;
+                font-size: 1.8vw;
+
+                @media @phone {
+                    font-size: 4vw;
+                }
+            }
+
+            .profilePic {
+                display: flex; 
+                align-items: center; 
+                justify-content: center;
+
+                img {
+                    width: 90%;
+                    height: auto;
+                    padding: 5%;
+                    border-radius: 50%;
+
+                    @media @phone {
+                        width: 90%;
+                    }
+                }
+            }
+        }
+    }
+}
