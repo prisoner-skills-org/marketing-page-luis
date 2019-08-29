@@ -9,6 +9,11 @@
     font-size: 2.8vw;
   }
 }
+@media (max-width: 1000px) and (min-width: 501px) {
+  .unorderedlist {
+    font-size: 1.5vw;
+  }
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -184,7 +189,7 @@ nav .signin a {
   margin-right: 0;
 }
 nav a {
-  font-size: 1.8vw;
+  font-size: 1.6vw;
   margin-right: 3vw;
   text-decoration: none;
   color: #FFFFFF;
@@ -195,6 +200,11 @@ nav a {
     font-size: 4vw;
     margin-right: 0;
     padding-bottom: 1em;
+  }
+}
+@media (max-width: 1000px) and (min-width: 501px) {
+  nav a {
+    font-size: 2.3vw;
   }
 }
 footer {
@@ -214,6 +224,11 @@ footer {
 @media (max-width: 500px) {
   footer {
     font-size: 3vw;
+  }
+}
+@media (max-width: 1000px) and (min-width: 501px) {
+  footer {
+    font-size: 1.7vw;
   }
 }
 .home {
@@ -258,6 +273,11 @@ footer {
     display: none;
   }
 }
+@media (max-width: 1000px) and (min-width: 501px) {
+  .home header img {
+    width: 15vw;
+  }
+}
 .home header h1 {
   font-size: 3vw;
   padding-top: 3.5vw;
@@ -268,6 +288,12 @@ footer {
     text-align: center;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
+  }
+}
+@media (max-width: 1000px) and (min-width: 501px) {
+  .home header h1 {
+    font-size: 4.5vw;
+    padding-top: 5vw;
   }
 }
 .home header .leftside {
@@ -320,7 +346,7 @@ footer {
 }
 @media (max-width: 500px) {
   .home .mission p {
-    font-size: 4vw;
+    font-size: 3.4vw;
   }
 }
 .home .information {
@@ -349,6 +375,11 @@ footer {
     font-size: 2.8vw;
   }
 }
+@media (max-width: 1000px) and (min-width: 501px) {
+  .home .information p {
+    font-size: 1.6vw;
+  }
+}
 .home .advantages {
   display: flex;
   padding: 0.5%;
@@ -368,6 +399,11 @@ footer {
     font-size: 4vw;
     padding-top: 2vw;
     padding-bottom: 2vw;
+  }
+}
+@media (max-width: 1000px) and (min-width: 501px) {
+  .home .advantages h1 {
+    font-size: 2.2vw;
   }
 }
 .home .advantages .prisons {
@@ -411,6 +447,11 @@ footer {
     font-size: 2.8vw;
   }
 }
+@media (max-width: 1000px) and (min-width: 501px) {
+  .home .advantages .prisons .text1 ul {
+    font-size: 1.5vw;
+  }
+}
 .home .advantages .prisons .text1 ul li {
   padding-top: 3%;
   margin-left: 1vw;
@@ -420,6 +461,11 @@ footer {
   justify-content: center;
   padding: 5%;
   align-items: flex-end;
+}
+@media (max-width: 1000px) and (min-width: 501px) {
+  .home .advantages .prisons .img1 {
+    padding-top: 30%;
+  }
 }
 .home .advantages .prisons img {
   width: 80%;
@@ -464,6 +510,11 @@ footer {
 @media (max-width: 500px) {
   .home .advantages .inmates .text2 ul {
     font-size: 2.8vw;
+  }
+}
+@media (max-width: 1000px) and (min-width: 501px) {
+  .home .advantages .inmates .text2 ul {
+    font-size: 1.5vw;
   }
 }
 .home .advantages .inmates .text2 ul li {
@@ -520,6 +571,11 @@ footer {
     font-size: 2.8vw;
   }
 }
+@media (max-width: 1000px) and (min-width: 501px) {
+  .home .advantages .employers .text3 ul {
+    font-size: 1.5vw;
+  }
+}
 .home .advantages .employers .text3 ul li {
   padding-top: 3%;
   margin-left: 1vw;
@@ -572,6 +628,11 @@ footer {
 @media (max-width: 500px) {
   .home .advantages .government .text4 ul {
     font-size: 2.8vw;
+  }
+}
+@media (max-width: 1000px) and (min-width: 501px) {
+  .home .advantages .government .text4 ul {
+    font-size: 1.5vw;
   }
 }
 .home .advantages .government .text4 ul li {
