@@ -2,7 +2,7 @@
   text-align: left;
   list-style-type: disc;
   list-style-position: outside;
-  font-size: 1.4vw;
+  font-size: 1.2vw;
 }
 @media (max-width: 500px) {
   .unorderedlist {
@@ -314,7 +314,7 @@ footer {
   }
 }
 .home .mission p {
-  font-size: 2.7vw;
+  font-size: 2.5vw;
   color: black;
   text-align: center;
 }
@@ -339,7 +339,7 @@ footer {
 }
 .home .information p {
   width: 33.33%;
-  font-size: 1.6vw;
+  font-size: 1.4vw;
   padding: 2%;
   text-align: justify;
 }
@@ -360,7 +360,7 @@ footer {
   }
 }
 .home .advantages h1 {
-  font-size: 2vw;
+  font-size: 1.8vw;
   padding-bottom: 6%;
 }
 @media (max-width: 500px) {
@@ -404,7 +404,7 @@ footer {
   text-align: left;
   list-style-type: disc;
   list-style-position: outside;
-  font-size: 1.4vw;
+  font-size: 1.2vw;
 }
 @media (max-width: 500px) {
   .home .advantages .prisons .text1 ul {
@@ -459,7 +459,7 @@ footer {
   text-align: left;
   list-style-type: disc;
   list-style-position: outside;
-  font-size: 1.4vw;
+  font-size: 1.2vw;
 }
 @media (max-width: 500px) {
   .home .advantages .inmates .text2 ul {
@@ -513,7 +513,7 @@ footer {
   text-align: left;
   list-style-type: disc;
   list-style-position: outside;
-  font-size: 1.4vw;
+  font-size: 1.2vw;
 }
 @media (max-width: 500px) {
   .home .advantages .employers .text3 ul {
@@ -567,7 +567,7 @@ footer {
   text-align: left;
   list-style-type: disc;
   list-style-position: outside;
-  font-size: 1.4vw;
+  font-size: 1.2vw;
 }
 @media (max-width: 500px) {
   .home .advantages .government .text4 ul {
@@ -596,7 +596,7 @@ footer {
 }
 .home .meetUs h1 {
   color: #007bff;
-  font-size: 6vw;
+  font-size: 5vw;
   border-top: 0.2vw solid #007bff;
   border-bottom: 0.2vw solid #007bff;
 }
@@ -631,7 +631,7 @@ footer {
 .home .team .member h3 {
   text-align: center;
   color: #007bff;
-  font-size: 2.3vw;
+  font-size: 1.8vw;
 }
 @media (max-width: 500px) {
   .home .team .member h3 {
@@ -641,7 +641,7 @@ footer {
 .home .team .member p {
   text-align: center;
   color: #007bff;
-  font-size: 1.8vw;
+  font-size: 1.5vw;
 }
 @media (max-width: 500px) {
   .home .team .member p {
@@ -654,9 +654,12 @@ footer {
   justify-content: center;
 }
 .home .team .member .profilePic img {
-  width: 90%;
+  width: 70%;
   height: auto;
-  padding: 5%;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 5%;
+  padding-top: 5%;
   border-radius: 50%;
 }
 @media (max-width: 500px) {
