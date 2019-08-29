@@ -25,6 +25,16 @@ You can now work on the project and whenever you make some progress add, commit 
 so your reviewer can have a look at your work and merge it to the master branch if you did 
 a good job. 
 
+The index.html file is for the marketing page and the about.html file contains the html code for
+the about page.
+
+The CSS in this project works with a compiler! So you can nest your CSS code, build variables and mixins.
+Please write the code in the .less files - the compiler will build the .css file!
+
+All images for the marketing page and profile pics of all team members can be found in the img folder. 
+
+
+
 
 
 
