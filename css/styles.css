@@ -527,6 +527,7 @@ footer {
   display: flex;
   justify-content: center;
   padding: 5%;
+  align-items: flex-end;
 }
 .home .advantages .inmates img {
   width: 80%;
@@ -586,6 +587,7 @@ footer {
   display: flex;
   justify-content: center;
   padding: 5%;
+  align-items: flex-end;
 }
 .home .advantages .employers img {
   width: 80%;
@@ -727,6 +729,6 @@ footer {
 }
 @media (max-width: 500px) {
   .home .team .member .profilePic img {
-    width: 90%;
+    width: 70%;
   }
 }
